@@ -1,21 +1,20 @@
 <template>
-  <div>
-   <TheHeader></TheHeader>
-   <TheSlider1></TheSlider1>
-   <TheHero></TheHero>
-   <TheFeature></TheFeature>
-   <TheBrand></TheBrand>
-   <TheInfo></TheInfo>
-   <TheSns></TheSns>
-   <TheSlider2></TheSlider2>
-   <TheNews></TheNews>
-   <TheFooter></TheFooter>
-  </div>
+  <the-header></the-header>
+    <the-container>
+   <the-slider1></the-slider1>
+   <the-hero></the-hero>
+   <the-feature></the-feature>
+   <the-brand></the-brand>
+   <the-info></the-info>
+   <the-sns></the-sns>
+   <the-slider2></the-slider2>
+   <the-news></the-news>
+   <the-footer></the-footer>
+  </the-container>
 </template>
 
 <script setup>
 import  TheFooter from '@/components/layout/TheFooter.vue';
-import  TheHeader from '@/components/layout/TheHeader.vue';
 import  TheSlider1 from '@/components/TheSlider1.vue';
 import  TheHero from '@/components/TheHero.vue';
 import  TheFeature from '@/components/TheFeature.vue';
