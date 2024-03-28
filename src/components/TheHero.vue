@@ -1,5 +1,5 @@
 <template>
-  <dev>
+  <div>
     ヒーロー
-  </dev>
+  </div>
 </template>
