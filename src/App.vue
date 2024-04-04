@@ -1,6 +1,5 @@
 <template>
   <the-header></the-header>
-    <the-container>
    <the-slider1></the-slider1>
    <the-hero></the-hero>
    <the-feature></the-feature>
@@ -10,7 +9,7 @@
    <the-slider2></the-slider2>
    <the-news></the-news>
    <the-footer></the-footer>
-  </the-container>
+  
 </template>
 
 <script setup>

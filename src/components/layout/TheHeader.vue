@@ -426,6 +426,4 @@ tr+tr td {
     display: none;
   }
 }
-
-
 </style>
