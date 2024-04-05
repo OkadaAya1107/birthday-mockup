@@ -33,6 +33,10 @@
   <img src="/images/hero/PickUpBanner_MaternityBook_2022.png">
 </div>
 
+<div class="store-search-container">
+  <img src="/images/hero/tenpokensaku_button.png" class="store-search">
+</div>
+
  </the-container>
 </template>
 
@@ -89,6 +93,16 @@
   width: 35%;
 }
 
+.store-search-container {
+  display: flex;
+  justify-content: center;
+  padding: 16px 0;
+}
+
+.store-search {
+  width: 90%;
+}
+
 
 
 /* レスポンシブ対応 */
@@ -114,6 +128,10 @@
 
 .mobile-banner {
   display: flex;
+}
+
+.store-search {
+ display: none;
 }
 
 }
