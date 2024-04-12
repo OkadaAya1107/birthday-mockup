@@ -20,5 +20,10 @@ export const useIconsStore = defineStore('icons', {
       path:'/images/sns/icon_nav_twitter.png'
      }
     ],
-  })
+  }),
+  getters: {
+    getIcon(state) {
+      return state.icons;
+    }
+  }
 });

@@ -27,13 +27,11 @@ body {
 .container {
   max-width: 1260px;
   margin: 0 auto;
-  background-color: cadetblue;
 }
 
 .sub-container {
   max-width: 980px;
   margin: 0 auto;
-  background-color: coral;
 }
 
 /* 幅が980px以下になったときのレイアウト（タブレット＆モバイル） */
