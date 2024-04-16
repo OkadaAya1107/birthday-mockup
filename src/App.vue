@@ -23,7 +23,3 @@ import TheSns from '@/components/TheSns.vue';
 import TheSlider2 from '@/components/TheSlider2.vue';
 import TheNews from '@/components/TheNews.vue';
 </script>
-
-<style>
-
-</style>
